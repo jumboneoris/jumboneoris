@@ -133,3 +133,6 @@ nopCommerce_3.90_Source/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/*.d
 nopCommerce_3.90_Source/Presentation/Nop.Web/Plugins/Widgets.GoogleAnalytics/*.pdb
 nopCommerce_3.90_Source/Presentation/Nop.Web/Plugins/Widgets.NivoSlider/*.dll
 nopCommerce_3.90_Source/Presentation/Nop.Web/Plugins/Widgets.NivoSlider/*.pdb
+nopCommerce_3.90_Source/Presentation/Nop.Web/obj/Debug/*.csproj.FileListAbsolute.txt
+nopCommerce_3.90_Source/Presentation/Nop.Web/obj/Debug/*.pdb
+nopCommerce_3.90_Source/Presentation/Nop.Web/obj/Debug/*.dll
