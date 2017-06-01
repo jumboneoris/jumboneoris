@@ -33,3 +33,8 @@ nopCommerce_3.90_Source/Presentation/Nop.Web/Administration/Bin/*.dll
 nopCommerce_3.90_Source/Presentation/Nop.Web/Administration/Bin/*.pdb
 nopCommerce_3.90_Source/Presentation/Nop.Web/bin/*.dll
 nopCommerce_3.90_Source/Presentation/Nop.Web/bin/*.pdb
+nopCommerce_3.90_Source/Presentation/Nop.Web/obj/Debug/*.cache
+*.cache
+*.cache
+*.csprojResolveAssemblyReference.cache
+nopCommerce_3.90_Source/Presentation/Nop.Web/obj/Debug/Nop.Web.csprojResolveAssemblyReference.cache
