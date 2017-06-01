@@ -559,9 +559,12 @@ namespace Nop.Web.Controllers
                 string _requiredMessage = _localizationService.GetResource(_defaultMessageKey);
                 if (_requiredMessage == _defaultMessageKey.ToLower())
                 {
-                    _localizationService.InsertLocaleStringResource(new LocaleStringResource() { ResourceName = _defaultMessageKey, ResourceValue = "{0} is required." });
+                    _localizationService.InsertLocaleStringResource(new LocaleStringResource() { ResourceName = _defaultMessageKey, ResourceValue = "{0} es obligatorio." });
+                    _requiredMessage = _localizationService.GetResource(_defaultMessageKey);
                 }
+
                 model.CustomerAttributes.ToList().ForEach(ca => ca.RequiredMessage = string.Format(_requiredMessage, ca.Name));
+
             }
 
             return View(model);
