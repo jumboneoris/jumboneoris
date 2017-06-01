@@ -1,0 +1,13 @@
+C:\Users\damian.rosso\Desktop\Jumbo+\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Pickup.Template\obj\Debug\Nop.Plugin.Pickup.Template.csprojResolveAssemblyReference.cache
+C:\Users\damian.rosso\Desktop\Jumbo+\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Pickup.Template\Description.txt
+C:\Users\damian.rosso\Desktop\Jumbo+\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Pickup.Template\Views\Configure.cshtml
+C:\Users\damian.rosso\Desktop\Jumbo+\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Pickup.Template\Views\Create.cshtml
+C:\Users\damian.rosso\Desktop\Jumbo+\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Pickup.Template\Views\Edit.cshtml
+C:\Users\damian.rosso\Desktop\Jumbo+\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Pickup.Template\Views\_CreateOrUpdate.cshtml
+C:\Users\damian.rosso\Desktop\Jumbo+\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Pickup.Template\web.config
+C:\Users\damian.rosso\Desktop\Jumbo+\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Pickup.Template\logo.png
+C:\Users\damian.rosso\Desktop\Jumbo+\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Pickup.Template\Nop.Plugin.Pickup.Template.dll.config
+C:\Users\damian.rosso\Desktop\Jumbo+\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Pickup.Template\Nop.Plugin.Pickup.Template.dll
+C:\Users\damian.rosso\Desktop\Jumbo+\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Pickup.Template\Nop.Plugin.Pickup.Template.pdb
+C:\Users\damian.rosso\Desktop\Jumbo+\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Pickup.Template\obj\Debug\Nop.Plugin.Pickup.Template.dll
+C:\Users\damian.rosso\Desktop\Jumbo+\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Pickup.Template\obj\Debug\Nop.Plugin.Pickup.Template.pdb

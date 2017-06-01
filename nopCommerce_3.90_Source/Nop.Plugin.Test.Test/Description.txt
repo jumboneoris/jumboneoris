@@ -1,0 +1,9 @@
+﻿Group: Widgets
+FriendlyName: Test Neoris
+SystemName: PickUp.Test
+Version: 1.0
+SupportedVersions: 3.90
+Author: Neoris
+DisplayOrder: 1
+FileName: Nop.Plugin.PickUp.Test.dll
+Description: Test neoris PickUp

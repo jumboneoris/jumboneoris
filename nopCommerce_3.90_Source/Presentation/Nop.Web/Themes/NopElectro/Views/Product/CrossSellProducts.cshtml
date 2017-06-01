@@ -1,0 +1,34 @@
+﻿@model IList<ProductOverviewModel>
+@using Nop.Web.Models.Catalog;
+@if (Model.Count > 0)
+{
+    <div class="cross-sells">
+        <h2 class="owl-title">
+            <strong>@T("ShoppingCart.CrossSells")</strong>
+        </h2>
+        <div class="item-grid owl-carousel">
+            @foreach (var product in Model)
+            {
+                <div class="item-box">
+                    @Html.Partial("_ProductBox", product)
+                </div>
+            }
+        </div>
+    </div>
+
+    <script type="text/javascript">
+    $(window).load(function () {
+        //Carousel
+        $(".owl-carousel").owlCarousel({
+            items : 5,
+            itemsDesktop : [1000,4],
+            itemsDesktopSmall : [900,3],
+            itemsTablet: [600, 2],
+            itemsMobile: [479, 1],
+            lazyLoad: true,
+            navigation: true,
+            pagination: false
+        });
+    });
+    </script>
+}
