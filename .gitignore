@@ -191,3 +191,7 @@ Presentation/Nop.Web/Plugins/Widgets.Test/*.dll
 nopCommerce_3.90_Source/asd.txt
 nopCommerce_3.90_Source/.vs/NopCommerce/v15/.suo
 *.cache
+nopCommerce_3.90_Source/Libraries/Nop.Database/obj/Debug/*.dll
+nopCommerce_3.90_Source/Libraries/Nop.Database/obj/Debug/*.pdb
+nopCommerce_3.90_Source/Libraries/Nop.Database/bin/Debug/*.dll
+nopCommerce_3.90_Source/Libraries/Nop.Database/bin/Debug/*.pdb

@@ -1,9 +1,0 @@
-﻿Group: Widgets
-FriendlyName: Hello World
-SystemName: Widgets.HelloWorld
-Version: 1.0
-SupportedVersions: 3.90
-Author: Damian Rosso
-DisplayOrder: 1
-FileName: Nop.Plugin.Widgets.HelloWorld.dll
-Description: Hola Mundo Plugin

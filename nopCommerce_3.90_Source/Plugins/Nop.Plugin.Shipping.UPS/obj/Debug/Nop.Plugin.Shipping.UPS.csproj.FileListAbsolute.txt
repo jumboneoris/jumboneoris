@@ -1,0 +1,11 @@
+C:\jumboneoris\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Shipping.UPS\Views\Configure.cshtml
+C:\jumboneoris\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Shipping.UPS\web.config
+C:\jumboneoris\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Shipping.UPS\Description.txt
+C:\jumboneoris\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Shipping.UPS\logo.jpg
+C:\jumboneoris\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.dll.config
+C:\jumboneoris\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.dll
+C:\jumboneoris\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.pdb
+C:\jumboneoris\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.csproj.App.config
+C:\jumboneoris\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.csprojResolveAssemblyReference.cache
+C:\jumboneoris\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.dll
+C:\jumboneoris\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.pdb

@@ -1,6 +1,0 @@
-C:\Users\damian.rosso\Desktop\Jumbo+\Presentation\Nop.Web\Plugins\Widgets.Test\Views\Configure.cshtml
-C:\Users\damian.rosso\Desktop\Jumbo+\Presentation\Nop.Web\Plugins\Widgets.Test\Nop.Plugin.Test.Test.dll.config
-C:\Users\damian.rosso\Desktop\Jumbo+\Presentation\Nop.Web\Plugins\Widgets.Test\Nop.Plugin.Test.Test.dll
-C:\Users\damian.rosso\Desktop\Jumbo+\Presentation\Nop.Web\Plugins\Widgets.Test\Nop.Plugin.Test.Test.pdb
-C:\Users\damian.rosso\Desktop\Jumbo+\nopCommerce_3.90_Source\Nop.Plugin.Test.Test\obj\Debug\Nop.Plugin.Test.Test.dll
-C:\Users\damian.rosso\Desktop\Jumbo+\nopCommerce_3.90_Source\Nop.Plugin.Test.Test\obj\Debug\Nop.Plugin.Test.Test.pdb

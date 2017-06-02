@@ -1,9 +1,0 @@
-﻿Group: Pickup points
-FriendlyName: Plantilla para grupo Pickup Points
-SystemName: Pickup.Plantilla
-Version: 1.02
-SupportedVersions: 3.90
-Author: Neoris Team
-DisplayOrder: 1
-FileName: Nop.Plugin.Pickup.Plantilla.dll
-Description: Plugin que permite generar catalogo de productos
