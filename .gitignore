@@ -106,6 +106,8 @@ nopCommerce_3.90_Source/Presentation/Nop.Web/Administration/Bin/*.dll
 nopCommerce_3.90_Source/Presentation/Nop.Web/Administration/obj/Debug/*.cache
 nopCommerce_3.90_Source/Presentation/Nop.Web/bin/*.dll
 nopCommerce_3.90_Source/Presentation/Nop.Web/bin/*.pdb
+nopCommerce_3.90_Source/Presentation/Nop.Web/obj/Debug/*.dll
+nopCommerce_3.90_Source/Presentation/Nop.Web/obj/Debug/*.pdb
 nopCommerce_3.90_Source/Presentation/Nop.Web/obj/Debug/*.cache
 nopCommerce_3.90_Source/Presentation/Nop.Web/Plugins/DiscountRules.CustomerRoles/*.dll
 nopCommerce_3.90_Source/Presentation/Nop.Web/Plugins/DiscountRules.CustomerRoles/*.pdb
@@ -186,3 +188,5 @@ nopCommerce_3.90_Source/Tests/Nop.Web.MVC.Tests/obj/Debug/*.cache
 nopCommerce_3.90_Source/Tests/Nop.Web.MVC.Tests/obj/Debug/*.dll
 nopCommerce_3.90_Source/Tests/Nop.Web.MVC.Tests/obj/Debug/*.pdb
 Presentation/Nop.Web/Plugins/Widgets.Test/*.dll
+nopCommerce_3.90_Source/asd.txt
+nopCommerce_3.90_Source/.vs/NopCommerce/v15/.suo
