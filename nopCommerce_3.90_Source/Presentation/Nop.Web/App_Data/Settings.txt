@@ -1,2 +1,2 @@
 DataProvider: sqlserver
-DataConnectionString: Data Source=ARBACNBK075\SQLEXPRESS;Initial Catalog=NopCommerce;Integrated Security=True;Persist Security Info=False
+DataConnectionString: Data Source=.\SQLEXPRESS;Initial Catalog=NopCommerce;Integrated Security=True;Persist Security Info=False
