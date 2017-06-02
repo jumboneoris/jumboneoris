@@ -195,3 +195,7 @@ nopCommerce_3.90_Source/Libraries/Nop.Database/obj/Debug/*.dll
 nopCommerce_3.90_Source/Libraries/Nop.Database/obj/Debug/*.pdb
 nopCommerce_3.90_Source/Libraries/Nop.Database/bin/Debug/*.dll
 nopCommerce_3.90_Source/Libraries/Nop.Database/bin/Debug/*.pdb
+nopCommerce_3.90_Source/Libraries/Nop.Database/obj/Debug/*.xml
+nopCommerce_3.90_Source/Libraries/Nop.Database/obj/Debug/*.txt
+nopCommerce_3.90_Source/Libraries/Nop.Database/obj/Debug/*.sql
+nopCommerce_3.90_Source/Libraries/Nop.Database/bin/Debug/*.dacpac

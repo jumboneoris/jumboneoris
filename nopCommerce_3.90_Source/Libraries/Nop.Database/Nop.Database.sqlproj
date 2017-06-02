@@ -61,6 +61,7 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Functions\" />
     <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Warehouse.sql" />
@@ -192,5 +193,8 @@
     <Build Include="dbo\Stored Procedures\FullText_Disable.sql" />
     <Build Include="dbo\Stored Procedures\DeleteGuests.sql" />
     <Build Include="dbo\Stored Procedures\CategoryLoadAllPaged.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="scripts\InsertData.sql" />
   </ItemGroup>
 </Project>
