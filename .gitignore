@@ -199,3 +199,8 @@ nopCommerce_3.90_Source/Libraries/Nop.Database/obj/Debug/*.xml
 nopCommerce_3.90_Source/Libraries/Nop.Database/obj/Debug/*.txt
 nopCommerce_3.90_Source/Libraries/Nop.Database/obj/Debug/*.sql
 nopCommerce_3.90_Source/Libraries/Nop.Database/bin/Debug/*.dacpac
+nopCommerce_3.90_Source/Jumbo/JumboMas.Service/bin/Debug/*.dll
+nopCommerce_3.90_Source/Jumbo/JumboMas.Service/bin/Debug/*.pdb
+nopCommerce_3.90_Source/Jumbo/JumboMas.Service/bin/Debug/*.xml
+nopCommerce_3.90_Source/Jumbo/JumboMas.Service/bin/Debug/
+nopCommerce_3.90_Source/Jumbo/JumboMas.Service/obj/Debug/

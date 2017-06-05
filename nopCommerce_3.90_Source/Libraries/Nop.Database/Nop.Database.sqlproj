@@ -196,5 +196,6 @@
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="scripts\InsertData.sql" />
+    <None Include="scripts\InsertRoles.sql" />
   </ItemGroup>
 </Project>

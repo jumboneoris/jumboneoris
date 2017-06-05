@@ -75,6 +75,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Tax.FixedOrByCou
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Nop.Database", "Libraries\Nop.Database\Nop.Database.sqlproj", "{7BD4B5B8-AF6D-4560-B73A-C49E786A1783}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JumboMasHelpers", "JumboMasHelpers", "{22986B46-85A0-44CC-86C9-70407F626936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumboMas.Service", "Jumbo\JumboMas.Service\JumboMas.Service.csproj", "{D1ED8839-B27E-4771-B12A-759F1411F58E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -423,6 +427,18 @@ Global
 		{7BD4B5B8-AF6D-4560-B73A-C49E786A1783}.Release|x86.ActiveCfg = Release|Any CPU
 		{7BD4B5B8-AF6D-4560-B73A-C49E786A1783}.Release|x86.Build.0 = Release|Any CPU
 		{7BD4B5B8-AF6D-4560-B73A-C49E786A1783}.Release|x86.Deploy.0 = Release|Any CPU
+		{D1ED8839-B27E-4771-B12A-759F1411F58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1ED8839-B27E-4771-B12A-759F1411F58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1ED8839-B27E-4771-B12A-759F1411F58E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D1ED8839-B27E-4771-B12A-759F1411F58E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D1ED8839-B27E-4771-B12A-759F1411F58E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D1ED8839-B27E-4771-B12A-759F1411F58E}.Debug|x86.Build.0 = Debug|Any CPU
+		{D1ED8839-B27E-4771-B12A-759F1411F58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1ED8839-B27E-4771-B12A-759F1411F58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1ED8839-B27E-4771-B12A-759F1411F58E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D1ED8839-B27E-4771-B12A-759F1411F58E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D1ED8839-B27E-4771-B12A-759F1411F58E}.Release|x86.ActiveCfg = Release|Any CPU
+		{D1ED8839-B27E-4771-B12A-759F1411F58E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -460,6 +476,7 @@ Global
 		{965A02F0-FC84-4AC4-91E4-79EADFC1CA9D} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
 		{493761CB-5190-4283-8C6C-A8CEB5450CAB} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
 		{7BD4B5B8-AF6D-4560-B73A-C49E786A1783} = {E4ACA93B-D3DE-4557-B069-F1DB42925A4B}
+		{D1ED8839-B27E-4771-B12A-759F1411F58E} = {22986B46-85A0-44CC-86C9-70407F626936}
 	EndGlobalSection
 	GlobalSection(NDepend) = preSolution
 		Project = ".\NopCommerce.ndproj"

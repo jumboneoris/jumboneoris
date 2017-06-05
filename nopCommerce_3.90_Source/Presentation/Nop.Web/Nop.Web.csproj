@@ -1034,6 +1034,10 @@
     <Folder Include="Plugins\bin\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Jumbo\JumboMas.Service\JumboMas.Service.csproj">
+      <Project>{d1ed8839-b27e-4771-b12a-759f1411f58e}</Project>
+      <Name>JumboMas.Service</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Libraries\Nop.Core\Nop.Core.csproj">
       <Project>{6BDA8332-939F-45B7-A25E-7A797260AE59}</Project>
       <Name>Nop.Core</Name>

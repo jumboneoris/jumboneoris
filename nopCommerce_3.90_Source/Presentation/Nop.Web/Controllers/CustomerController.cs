@@ -626,6 +626,12 @@ namespace Nop.Web.Controllers
                     _customerSettings.DefaultPasswordFormat,
                     _storeContext.CurrentStore.Id,
                     isApproved);
+
+                //JUMBOMAS RULE.
+                JumboMas.Service.Service _jmService = new JumboMas.Service.Service();
+                registrationRequest.Customer.CustomerRoles.Add(_jmService.GetAssociateCustomerRole(_customerService));
+
+                //FIN JUMBOMAS RULE.
                 var registrationResult = _customerRegistrationService.RegisterCustomer(registrationRequest);
                 if (registrationResult.Success)
                 {
