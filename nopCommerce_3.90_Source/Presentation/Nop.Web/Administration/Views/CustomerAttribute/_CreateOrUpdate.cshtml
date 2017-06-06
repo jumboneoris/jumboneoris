@@ -53,12 +53,12 @@
             var selectedAttributeControlTypeId = $("#@Html.FieldIdFor(model => model.AttributeControlTypeId)").val();
            
             //values
-            if (selectedAttributeControlTypeId == @(((int) AttributeControlType.DropdownList).ToString()) ||
-                selectedAttributeControlTypeId == @(((int) AttributeControlType.RadioList).ToString()) ||
-                selectedAttributeControlTypeId == @(((int) AttributeControlType.Checkboxes).ToString()) ||
-                selectedAttributeControlTypeId == @(((int) AttributeControlType.ColorSquares).ToString()) ||
-                selectedAttributeControlTypeId == @(((int) AttributeControlType.ImageSquares).ToString()) ||
-                selectedAttributeControlTypeId == @(((int) AttributeControlType.ReadonlyCheckboxes).ToString())) {
+            if (selectedAttributeControlTypeId == @(((int)AttributeControlType.DropdownList).ToString()) ||
+                selectedAttributeControlTypeId == @(((int)AttributeControlType.RadioList).ToString()) ||
+                selectedAttributeControlTypeId == @(((int)AttributeControlType.Checkboxes).ToString()) ||
+                selectedAttributeControlTypeId == @(((int)AttributeControlType.ColorSquares).ToString()) ||
+                selectedAttributeControlTypeId == @(((int)AttributeControlType.ImageSquares).ToString()) ||
+                selectedAttributeControlTypeId == @(((int)AttributeControlType.ReadonlyCheckboxes).ToString())) {
                  $('[data-tab-name=tab-values]').show();
             } else {
                 $('[data-tab-name=tab-values]').hide();
@@ -82,7 +82,7 @@
                     </div>
                     @Html.HiddenFor(model => model.Locales[item].LanguageId)
                 </div>
-    ,
+,
                 @<div>
                     <div class="form-group">
                         <div class="col-md-3">
@@ -94,7 +94,7 @@
                         </div>
                     </div>
                 </div>
-            ))
+))
                 <div class="form-group">
                     <div class="col-md-3">
                         @Html.NopLabelFor(model => model.IsRequired)
@@ -126,6 +126,32 @@
                     <div class="col-md-9">
                         @Html.NopEditorFor(model => model.DisplayOrder)
                         @Html.ValidationMessageFor(model => model.DisplayOrder)
+                    </div>
+                </div>
+                <div id="RegexList" class="form-group">
+                    <div class="col-md-3">
+                        <div class="label-wrapper">
+                            <div class="ico-help" title="The customer attribute display order. 1 represents the first item in the list.">
+                                <i class="fa fa-question-circle"></i>
+                            </div>
+                        </div>
+                        @Html.NopLabelFor(model => model.RegexList)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.NopDropDownListFor(model => model.RegexList, new SelectList(Model.RegexList, "Value", "Key", Model.RegexList.Keys.First()))
+                    </div>
+                </div>
+                <div id="RegexValue" class="form-group">
+                    <div class="col-md-3">
+                        <div class="label-wrapper">
+                            <div class="ico-help" title="The customer attribute display order. 1 represents the first item in the list.">
+                                <i class="fa fa-question-circle"></i>
+                            </div>
+                        </div>
+                        @Html.NopLabelFor(model => model.Regex)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.NopEditorFor(model => model.Regex)
                     </div>
                 </div>
             </div>

@@ -9300,6 +9300,9 @@
   <LocaleResource Name="Admin.Customers.CustomerAttributes.Fields.DisplayOrder">
     <Value>Display order</Value>
   </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerAttributes.Fields.Regex">
+    <Value>Regex</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Customers.CustomerAttributes.Fields.DisplayOrder.Hint">
     <Value>The customer attribute display order. 1 represents the first item in the list.</Value>
   </LocaleResource>

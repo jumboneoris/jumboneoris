@@ -129,8 +129,10 @@ namespace Nop.Admin.Controllers
                 return AccessDeniedView();
 
             var model = new CustomerAttributeModel();
+
             //locales
             AddLocales(_languageService, model.Locales);
+            
             return View(model);
         }
 
@@ -179,6 +181,10 @@ namespace Nop.Admin.Controllers
                 return RedirectToAction("List");
 
             var model = customerAttribute.ToModel();
+            
+            model.RegexList = Nop.Admin.Helpers.RegexHelper.GetRegexList();
+            model.Regex = "";
+
             //locales
             AddLocales(_languageService, model.Locales, (locale, languageId) =>
             {

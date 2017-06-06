@@ -161,9 +161,6 @@ namespace Nop.Web.Factories
                     Id = attribute.Id,
                     Name = attribute.GetLocalized(x => x.Name),
                     IsRequired = attribute.IsRequired,
-                    NeedRegex = attribute.NeedRegex,
-                    Regex = attribute.Regex,
-                    RegexMessage = attribute.RegexMessage,
                     AttributeControlType = attribute.AttributeControlType,
                 };
 

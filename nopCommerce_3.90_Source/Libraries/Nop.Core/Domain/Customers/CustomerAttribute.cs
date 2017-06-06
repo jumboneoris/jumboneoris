@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Nop.Core.Domain.Catalog;
 using Nop.Core.Domain.Localization;
+using System.Web.Mvc;
 
 namespace Nop.Core.Domain.Customers
 {
@@ -21,12 +22,8 @@ namespace Nop.Core.Domain.Customers
         /// </summary>
         public bool IsRequired { get; set; }
 
-        public bool NeedRegex { get; set; }
-
+        public Dictionary<string, string> RegexList { get; set; }
         public string Regex { get; set; }
-
-        public string RegexMessage { get; set; }
-
 
         /// <summary>
         /// Gets or sets the attribute control type identifier
@@ -37,9 +34,6 @@ namespace Nop.Core.Domain.Customers
         /// Gets or sets the display order
         /// </summary>
         public int DisplayOrder { get; set; }
-
-
-
 
         /// <summary>
         /// Gets the attribute control type

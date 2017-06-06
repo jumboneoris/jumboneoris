@@ -5,6 +5,7 @@ using Nop.Admin.Validators.Customers;
 using Nop.Web.Framework;
 using Nop.Web.Framework.Localization;
 using Nop.Web.Framework.Mvc;
+using System.ComponentModel;
 
 namespace Nop.Admin.Models.Customers
 {
@@ -32,9 +33,12 @@ namespace Nop.Admin.Models.Customers
         [NopResourceDisplayName("Admin.Customers.CustomerAttributes.Fields.DisplayOrder")]
         public int DisplayOrder { get; set; }
 
+        [DisplayName("Regex")]
+        public Dictionary<string,string> RegexList { get; set; }
+
+        public string Regex { get; set; }
 
         public IList<CustomerAttributeLocalizedModel> Locales { get; set; }
-
     }
 
     public partial class CustomerAttributeLocalizedModel : ILocalizedModelLocal
